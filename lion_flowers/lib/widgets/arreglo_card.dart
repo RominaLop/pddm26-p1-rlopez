@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lion_flowers/models/arreglo.dart';
 
-/// Tarjeta individual del catálogo. Al presionarla dispara [onTap],
-/// que en HomeScreen se usa para mostrar el SnackBar (R6).
+
 class ArregloCard extends StatelessWidget {
   final Arreglo arreglo;
   final VoidCallback onTap;
